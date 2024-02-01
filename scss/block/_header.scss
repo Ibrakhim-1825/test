@@ -1,0 +1,31 @@
+.main_header {
+    padding-top: 73px;
+}
+
+.main_header__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_header__list {
+    display: flex;
+    gap: 32px;
+}
+
+.main_header__item {
+    color: #242D52;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.main_header__btn{
+    color: #FCF6F5;
+    font-size: 13px;
+    font-weight: 700;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 12px 32px;
+    background-color: #F3603C;
+    border-radius: 25px;
+    cursor: pointer;
+}
